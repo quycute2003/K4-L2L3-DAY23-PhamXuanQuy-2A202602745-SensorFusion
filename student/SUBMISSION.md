@@ -4,10 +4,10 @@
 
 ## Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email:
-- Link repo (fork):
+- Họ tên: Phạm Xuân Quý
+- MSSV: 2A202602745
+- Email: 26ai.quypx@vinuni.edu.vn
+- Link repo (fork): https://github.com/quycute2003/K4-L2L3-DAY23-PhamXuanQuy-2A202602745-SensorFusion
 - Commit hash nộp (`git rev-parse HEAD`):
 
 ## Tóm tắt kết quả
@@ -57,9 +57,9 @@ Liệt kê phần bonus đã làm, file bằng chứng trong `student/bonus/` v�
 
 Ghi rõ, kể cả khi không dùng ("Không dùng AI"). Xem [RULES.md](../RULES.md) mục 2.
 
-- Công cụ đã dùng (ChatGPT, Copilot, Claude, …):
-- Dùng cho phần nào (hàm, câu hỏi, debug):
-- Cách bạn đã kiểm tra lại (pytest, chạy Waymo, đối chiếu công thức):
+- Công cụ đã dùng (ChatGPT, Copilot, Claude, …): ChatGPT (Codex).
+- Dùng cho phần nào (hàm, câu hỏi, debug): CP0 — đọc tài liệu, kiểm tra repo và remote upstream, cài môi trường Python 3.12, tạo cấu hình local, tải weights, giải nén 3 ZIP Day23 vào thư mục data, đọc Part A–D và xử lý encoding UTF-8 trên Windows.
+- Cách bạn đã kiểm tra lại (pytest, chạy Waymo, đối chiếu công thức): Kiểm tra CP0 bằng `pytest student/tests -q` (82 passed, 46 xfailed, không có failed/error), `fusion-run-lab --help` và nạp weights bằng `create_fpn_model`. Đã kiểm tra kích thước và CRC của toàn bộ file giải nén. Chưa chạy pipeline tracking trên Waymo; cần bổ sung các kiểm tra sau khi hoàn thành E–H.
 
 ## Checklist nộp
 
